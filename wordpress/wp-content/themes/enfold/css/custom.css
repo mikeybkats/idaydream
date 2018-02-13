@@ -1,0 +1,148 @@
+/* Have fun adding your style here :) - PS: At all times this file should contain a comment or a rule, otherwise opera might act buggy :( */
+
+/* General Custom CSS */
+.hero {
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+  line-height: 0;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.hero-text{
+  height: 180px;
+  line-height: 180px;
+  width: 100%
+}
+
+.hero-text h1 {
+  color: white;
+  margin: 0px auto;
+  text-align: center;
+  font-size: 40px;
+}
+
+.hero-text p {
+  color: white;
+  margin: 0px auto;
+  font-size: 16px;
+  font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+  font-weight: lighter;
+  line-height: 18px;
+  text-align: center;
+}
+
+.blog-post p, .blog-post h2, .blog-post h4 {
+	text-align: left;
+} 
+
+.blog-post a {
+}
+
+.linear-gradient {
+  background: linear-gradient(#50DDFF, #ACEDFD);
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  max-width: 800px;
+}
+
+.services {
+  padding: 30px 0 30px 0;
+}
+
+.service-copy{
+  color: #4D4D4D;
+  text-align: left;
+  max-width: 350px;
+}
+
+.service-image img {
+  width: 135px;
+}
+
+.our-values {
+  color: white;
+  padding: 70px 0px; 
+}
+
+.our-values p{
+  font-size: 16px;
+  text-align: left;
+  max-width: 800px;
+  padding: 8px 0px;
+  margin: 0px auto;
+}
+
+.values-list{
+  margin: 30px 0px 30px 0px;
+}
+
+.values-circle{
+  max-width: 400px;
+}
+
+.quote {
+	background-color: #E0E0E0;
+	padding: 50px 0px 30px 0px;
+}	
+.quote h2{
+ 	color: #4D4D4D;	
+  font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+	font-weight: lighter;
+  text-align: left;
+  font-style: italic;
+}
+
+.quote p{
+	color: #4D4D4D;
+	text-align: left;
+	font-size: 18px;
+}
+
+.instagram {
+  max-width: 1280px;
+  margin: 0px auto; 
+  padding: 70px 0px;
+}
+
+.instagram h1 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.page-template-page-blog .avia-post-nav.avia-post-prev.with-image{
+	display: none;
+}
+
+/*
+Desktop Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the desktop view of your site */
+
+@media only screen and (min-width: 768px) {
+  /* Add your Desktop Styles here */
+
+}
+
+
+
+/*
+Mobile Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+@media only screen and (max-width: 767px) {
+  /* Add your Mobile Styles here */
+
+}
