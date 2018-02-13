@@ -1,6 +1,6 @@
 # -----------------------------------------------------------------
 # .gitignore for WordPress
 
-!wp-content/
+!/wordpress/wp-content/
 
 
